@@ -6,14 +6,14 @@
 #### This repository shows the process used to clean the data.
 
 ### Data_cleanup
-#### The purpose of this jupyter notebook file is to identify real responses, and reject fake responses (bots, people that did not pay attention). It does the following:
-#### - Identifies participants that passed all attention checks
-#### - Identifies people who have real human dimensions
-#### - Identifies people who reported the same age value at the beginning and the end of the questionnaire.
+##### The purpose of this jupyter notebook file is to identify real responses, and reject fake responses (bots, people that did not pay attention). It does the following:
+##### - Identifies participants that passed all attention checks
+##### - Identifies people who have real human dimensions
+##### - Identifies people who reported the same age value at the beginning and the end of the questionnaire.
 
 ### Data_cleanup 2
-#### This jupyter notebook file eliminates participants that were rejected on MTurk. It does the following:
-#### 1. Stores the IDs of participants who were rejected
-#### 2. Creates a dataframe for the rejected participant
-#### 3. Creates a dataframe for the participants that were not rejected
-#### 4. Verifies that the manipulation worked by identifying repeated IP addresses. This manipulation check verifies that each IP address was unique, thus confirming that the responses come from different individuals.
+##### This jupyter notebook file eliminates participants that were rejected on MTurk. It does the following:
+##### 1. Stores the IDs of participants who were rejected
+##### 2. Creates a dataframe for the rejected participant
+##### 3. Creates a dataframe for the participants that were not rejected
+##### 4. Verifies that the manipulation worked by identifying repeated IP addresses. This manipulation check verifies that each IP address was unique, thus confirming that the responses come from different individuals.
