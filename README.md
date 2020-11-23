@@ -6,7 +6,7 @@
 ### This repository shows the process used to clean the data.
 
 ## Data_cleanup
-###The purpose of this jupyter notebook file is to identify real responses, and reject fake responses (bots, people that did not pay attention). It does the following:
+### The purpose of this jupyter notebook file is to identify real responses, and reject fake responses (bots, people that did not pay attention). It does the following:
 ### - Identifies participants that passed all attention checks
 ### - Identifies people who have real human dimensions
 ### - Identifies people who reported the same age value at the beginning and the end of the questionnaire.
