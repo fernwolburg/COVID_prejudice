@@ -1,9 +1,9 @@
 # COVID_prejudice
-## This repository shows the data cleanup process for a research project done by Portland State University.
+## This repository shows the data-cleanup process for a research project done by Portland State University.
 
 #### Empirical findings revealed an inverse association between prejudice and COVID safety behaviors. That is, individuals who are more prejudiced are less likely to follow COVID safety guidelines.
 
-#### This repository shows the process used to clean the data.
+#### This repository shows the process used to clean the data. Disclosure: I do not show the dataframe itself, since it contains IP addresses. This is sensitive material and we are committed to the privacy of our participants.
 
 ### Data_cleanup
 ##### The purpose of this jupyter notebook file is to identify real responses, and reject fake responses (bots, people that did not pay attention). It does the following:
